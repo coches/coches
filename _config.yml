@@ -6,14 +6,15 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://labs.coches.com" # the base hostname & protocol for your site
+twitter_handle: '@cochescomlab'
+disqus: cochescomlab
 
 #blog logo
 logo: "/assets/images/logo.jpg"
 # blog cover
 cover: "/assets/images/fondoHomeCoches.jpg"
-
 paginate:	5
-
+permalink: /404.html
 
 # Build settings
 markdown: redcarpet
@@ -21,3 +22,21 @@ highlighter: pygments
 gems:
   - jemoji
 
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/cochescomlab
+    desc: Síguenos en twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    url:	https://github.com/coches
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+github:
+  repo: github.com/coches/coches.github.io

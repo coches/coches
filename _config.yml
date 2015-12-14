@@ -21,3 +21,19 @@ highlighter: pygments
 gems:
   - jemoji
 
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/cochescomlab
+    desc: Síguenos en twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    url:	https://github.com/coches
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+

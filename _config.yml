@@ -1,0 +1,12 @@
+# Site settings
+title: Blog del equipo de coches.com
+email: tekis@coches.com
+description: > # this means to ignore newlines until "baseurl:"
+ Este es el blog del equipo de coches.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  coches
+
+# Build settings
+markdown: kramdown
